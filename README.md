@@ -106,7 +106,3 @@ This application is ready to deploy on **Render** (or platforms like Railway/Her
 **Poonam Kumari**
 
 * GitHub: [@poonam-webdev](https://github.com/poonam-webdev)
-
-```
-
-```

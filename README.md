@@ -1,4 +1,3 @@
-```markdown
 # Personal Portfolio Website
 
 A dynamic full-stack personal portfolio website built with Python (Flask), HTML5, CSS3, and JavaScript, configured for deployment on Render using Gunicorn.
@@ -27,7 +26,6 @@ A dynamic full-stack personal portfolio website built with Python (Flask), HTML5
 
 ## 📂 Project Structure
 
-```text
 poonam-portfolio/
 ├── static/              # CSS stylesheets, JavaScript files, and images
 ├── templates/           # HTML templates (Jinja2)
@@ -37,8 +35,6 @@ poonam-portfolio/
 ├── seed_db.py           # Database population/seeding script
 ├── test_email.py        # Email integration testing script
 └── README.md            # Project documentation
-
-```
 
 ---
 
@@ -52,15 +48,15 @@ poonam-portfolio/
 ### Installation & Local Setup
 
 1. **Clone the repository:**
-```bash
+bash
 git clone [https://github.com/poonam-webdev/poonam-portfolio.git](https://github.com/poonam-webdev/poonam-portfolio.git)
 cd poonam-portfolio
 
-```
+
 
 
 2. **Create and activate a virtual environment:**
-```bash
+bash
 # On macOS/Linux:
 python3 -m venv venv
 source venv/bin/activate
@@ -69,28 +65,27 @@ source venv/bin/activate
 python -m venv venv
 venv\Scripts\activate
 
-```
+
 
 
 3. **Install required dependencies:**
-```bash
+bash
 pip install -r requirements.txt
 
-```
+
 
 
 4. **Seed the database (if required):**
-```bash
+bash
 python seed_db.py
 
-```
+
 
 
 5. **Run the application:**
-```bash
+bash
 python app.py
 
-```
 
 
 6. Open your browser and navigate to `http://127.0.0.1:5000/`.
